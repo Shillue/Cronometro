@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+}
+h1{
+    font-size: 70px;
+
+}
+.cronometro{
+    position: absolute;
+    background-color: rgb(72, 5, 134);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 40px;
+}
+#contador{
+    border: 2px solid;
+    border-radius: 15px;
+    font-size: 80px;
+    padding: 5px;
+}
+
+.botao{
+    font-size: 25px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.botao:hover{
+    background-color: rgb(10, 104, 104);
+    cursor: pointer;
+}
